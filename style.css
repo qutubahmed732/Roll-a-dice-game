@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient( 135deg,red, purple);
+}
+
+.container {
+    border: 2px solid black;
+    width: 60vw;
+    height: 80vh;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    border-radius: 25px;
+    overflow: hidden;
+}
+.part1 {
+    border: 1px solid black;
+    width: 30vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 70px;
+    background: linear-gradient(rgb(228, 152, 152), rgb(250, 176, 37));
+}
+.part2 {
+    border: 1px solid black;
+    width: 30vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 70px;
+    background: linear-gradient(rgb(228, 152, 152) , rgb(250, 176, 37));
+
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    /* border:1px solid black; */
+    width: 150px;
+    height: 150px;
+}
+
+.current {
+    border: 1px solid black;
+    width: 200px;
+    height: 100px;
+    border-radius: 25px;
+    text-align: center;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.totalScore  {
+    font-size: 50px;
+    color: red
+}
+
+.currentScore {
+    font-size: 20px;
+    color: white;
+}
+
+.newGame {
+    width: 8vw;
+    height: 6vh;
+    position: relative;
+    left: 46%;
+    top: 110px;
+    border-radius: 25px;
+}
+.rollDice {
+    width: 8vw;
+    height: 6vh;
+    position: relative;
+    left: 38%;
+    top: 410px;
+    border-radius: 25px;
+}
+
+.hold {
+    width: 8vw;
+    height: 6vh;
+    position: relative;
+    left: 29.59%;
+    top: 470px;
+    border-radius: 25px;
+}
+
+img {
+    position: relative;
+    top: 250px;
+    left: 300px;
+}
+
+.hidden {
+    display: none;
+}
+
+.background {
+    background: lightslategrey;
+}
